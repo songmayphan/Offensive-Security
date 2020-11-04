@@ -2,9 +2,9 @@
 This repo is for the purpose of tracking my cybersecurity learning journey. It includes documentations, tryhackme solutions and findings, as well as other activities I have done
 
 ## Kali Linux
--Introduction to Kali Linux
--Tools and their usage
--Testing and exploiting
+- Introduction to Kali Linux
+- Tools and their usage
+- Testing and exploiting
 
 ## Tryhackme
 - solutions and findings to each room
@@ -13,5 +13,5 @@ This repo is for the purpose of tracking my cybersecurity learning journey. It i
 ## HacktheBox
 
 ## Networking Basics
--Topology
--web Application exploits
+- Topology
+- Web Application exploits
