@@ -1,4 +1,4 @@
-# Offensive-Security
+# Offensive Security and Pen-Testing
 This repo is for the purpose of tracking my cybersecurity learning journey. It includes documentations, tryhackme solutions and findings, as well as other activities I have done
 
 ## Kali Linux
@@ -12,6 +12,6 @@ This repo is for the purpose of tracking my cybersecurity learning journey. It i
 
 ## HacktheBox
 
-##Networking Basics
+## Networking Basics
 -Topology
 -web Application exploits
