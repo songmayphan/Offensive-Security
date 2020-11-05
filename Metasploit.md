@@ -55,3 +55,20 @@ When you're using an exploit, we will see the cmd change:
 
 ![ss](/img/msf.png)
 
+
+Metasploit can be customized for each case as well. To do this, use the ```set``` command
+
+The attributes we can modify are called **variables**
+There are 4 most used variables:
+**LHOST** = Local Host, or Kali System
+**RHOSt** = Remote Host, or our target system
+**LPORT** = Port we want to use on our Kali System
+**RPORT** = Port we want to attack on our target system
+
+To see all the variables, use the ```show``` command
+
+```show options```
+
+![ss](/img/msf2.png)
+
+This particular exploit uses 2 varibles, RPORT and RHOST
