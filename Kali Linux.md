@@ -31,12 +31,12 @@ msfconsole
 Access the help menu. This menu is really helpful if you want to look up the list of available commands to use.
 
 ```
-msf > help
+help
 ```
 To show the list of available exploits we can use
 
 ````
-msf > show exploits
+show exploits
 ````
 
 
