@@ -7,7 +7,7 @@ Download the installation here: [Source Force Installing Metasploitable](https:/
 
 Run the virtual hard disk file on your Virtual Box or VMWare. You should see this welcome screen: 
 
-![ss](/img/msf4.png)
+![ss](/img/msf4.PNG)
 
 The default username is `msfadmin` and the password is also `msfadmin`
 
