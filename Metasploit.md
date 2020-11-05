@@ -71,4 +71,13 @@ To see all the variables, use the ```show``` command
 
 ![ss](/img/msf2.png)
 
-This particular exploit uses 2 varibles, RPORT and RHOST
+This particular exploit uses 2 varibles, RPORT and RHOST. We can edit these variables to match our target's sytem.
+
+use the below command to see which targets are available to lauch our exploit. We can set multiple targets depending on our exploits as well.
+
+``` show targets```
+![ss](/img/msf3.png)
+This means we have not assign a target yet, so let's do that! We will need a vulnerable machine to be our target
+
+The easiest way to set up a vulnerable machine is by using Metasploitable. Let's head over to Metasploitable README to see how to set up your target!
+
