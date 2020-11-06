@@ -111,10 +111,11 @@ This is all we need right now to run this exploit. Run the exploit command to ex
 
 ```exploit```
 
-We had just finished our first exploit with Metasploit :congratulation:
+We had just finished our first exploit with Metasploit :)
 
 For more information, visit these links below
 
 [Vulnerability Guide Metasploit](https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide)
+
 [Metasploit main Website](https://www.metasploit.com/)
 
