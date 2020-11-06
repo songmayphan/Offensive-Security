@@ -111,7 +111,7 @@ This is all we need right now to run this exploit. Run the exploit command to ex
 
 ```exploit```
 
-We had just finished our first exploit with Metasploit :)
+We had just finished our first exploit with Metasploit :yum:
 
 For more information, visit these links below
 
