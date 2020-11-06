@@ -3,7 +3,7 @@ Metasploit is a framework used in pen-testing that simplified hacking.
 
 ## Vocabulary
 - Payload = **exploit module**. They are simple scripts used to interact with the target. A payload can transfer data to the victim's system.
-- Exploit = **a hacking activity**. An exploit is either  **active** : exploit a specific host, run until completion, and then exit *or* **passive**: wait for incoming hosts and exploit them as they connect.
+- Exploit = **tool designed to take advantage of a flaw in a computer system**. An exploit is either  **active** : exploit a specific host, run until completion, and then exit *or* **passive**: wait for incoming hosts and exploit them as they connect.
 
 Command to force an active exploit to work in the background
 ````
@@ -115,6 +115,6 @@ We had just finished our first exploit with Metasploit :congratulation:
 
 For more information, visit these links below
 
-[Vulnerability Guide Metasploit] (https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide)
-[Metasploit main Website] (https://www.metasploit.com/)
+![Vulnerability Guide Metasploit] (https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide)
+![Metasploit main Website] (https://www.metasploit.com/)
 
