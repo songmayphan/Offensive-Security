@@ -22,8 +22,8 @@ Aha! another invite code related item, and it's a function. So I went back to th
 `makeInviteCode()`
 
 The function contains:
-`data{some random string}
 
+`data{some random string}
  type{BASE64}`
 
 There is a hint..
