@@ -38,13 +38,13 @@ What about if I want to scan a specific port?
 `-p`
 
 How about if I want to scan every port?
--p-
+`-p-`
 
 What if I want to enable using a script from the nmap scripting engine? For this, just include the first part of the switch without the specification of what script to run.
---script
+`--script`
 
 What if I want to run all scripts out of the vulnerability category? 
---script vuln
+`--script vuln`
 
 What switch should I include if I don't want to ping the host?
--Pn
+`-Pn`
