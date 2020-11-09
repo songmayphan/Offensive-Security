@@ -14,28 +14,28 @@ Not quite as useful but how about a 'UDP Scan'?
 ```-sU```
 
 What about operating system detection?
--O
+```-O```
 
 How about service version detection? 
--sV
+```-sV```
 
 Most people like to see some output to know that their scan is actually doing things, what is the verbosity flag?
--v
+```-v```
 
 What about 'very verbose'? (A personal favorite)
--vv
+```-vv```
 
 Sometimes saving output in a common document format can be really handy for reporting, how do we save output in xml format?
--oX
+```-oX```
 
 Aggressive scans can be nice when other scans just aren't getting the output that you want and you really don't care how 'loud' you are, what is the switch for enabling this? 
--A
+```-A```
 
 How do I set the timing to the max level, sometimes called 'Insane'?
--T5
+``-T5``
 
 What about if I want to scan a specific port?
--p
+`-p`
 
 How about if I want to scan every port?
 -p-
