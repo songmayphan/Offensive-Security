@@ -21,9 +21,10 @@ while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('
 Aha! another invite code related item, and it's a function. So I went back to the console and call the function
 `makeInviteCode()`
 
-The function contains 
-data{<some random string>}
-type{BASE64}
+The function contains:
+`data{some random string}
+
+ type{BASE64}`
 
 There is a hint..
 
