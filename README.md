@@ -10,7 +10,15 @@ This repo is for the purpose of tracking my cybersecurity learning journey. It i
 - which steps to take for which activity
 
 ## HacktheBox
+- Writeups
+- Room discovery
 
 ## Networking Basics
 - Topology
 - Web Application exploits
+
+## Capture the Flag
+- Write ups
+- Steps and discovery
+- Tools used for each session
+
