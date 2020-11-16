@@ -56,7 +56,7 @@ Let's go ahead and start with the basics and perform a syn scan on the box provi
 `nmap -sS`
 After scanning this, how many ports do we find open under 1000?
 `1000 - 998 = 2`
-![998 ports](img/thm.PNG)
+![998 ports](Offensive-Security/img/thm.PNG)
 
 What communication protocol is given for these ports following the port number?
 
@@ -66,7 +66,7 @@ Perform a service version detection scan, what is the version of the software ru
 Run the command: 
 `nmap -sV <target-ip>`
 
-![version](img/thm1.PNG)
+![version](Offensive-Security/img/thm1.PNG)
 
 Answer: `6.6.1p1`
 
@@ -74,7 +74,7 @@ Perform an aggressive scan, what flag isn't set under the results for port 80?
 
 Run the command 
 `nmap -A <target-ip>`
-![notset](img/thm2.PNG)
+![notset](Offensive-Security/img/thm2.PNG)
 
 Answer: `httponly`
 
@@ -84,4 +84,4 @@ Run the command:
 
 `nmap -script vuln <target-ip>`
 
-![vuln] (img/thm3.PNG)
+![vuln] (Offensive-Security/img/thm3.PNG)
