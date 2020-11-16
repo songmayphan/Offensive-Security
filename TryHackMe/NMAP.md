@@ -75,6 +75,7 @@ Perform an aggressive scan, what flag isn't set under the results for port 80?
 
 Run the command 
 `nmap -A <target-ip>`
+
 ![notset](img/thm2.PNG)
 
 Answer: `httponly`
@@ -86,3 +87,5 @@ Run the command:
 `nmap -script vuln <target-ip>`
 
 ![vuln] (img/thm3.PNG)
+
+Answer: `http-slowloris-check`
