@@ -86,6 +86,6 @@ Run the command:
 
 `nmap -script vuln <target-ip>`
 
-![vuln] (img/thm3.PNG)
+![vuln](img/thm3.PNG)
 
 Answer: `http-slowloris-check`
