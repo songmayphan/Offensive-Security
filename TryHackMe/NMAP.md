@@ -56,7 +56,7 @@ Let's go ahead and start with the basics and perform a syn scan on the box provi
 `nmap -sS`
 After scanning this, how many ports do we find open under 1000?
 `1000 - 998 = 2`
-![998 ports](Offensive-Security/img/thm.PNG)
+![998 ports](songmayphan/Offensive-Security/img/thm.PNG)
 
 What communication protocol is given for these ports following the port number?
 
