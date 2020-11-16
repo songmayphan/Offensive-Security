@@ -48,3 +48,40 @@ What if I want to run all scripts out of the vulnerability category?
 
 What switch should I include if I don't want to ping the host?
 `-Pn`
+
+# Task 4 
+
+Let's go ahead and start with the basics and perform a syn scan on the box provided. What will this command be without the host IP address?
+
+`nmap -sS`
+After scanning this, how many ports do we find open under 1000?
+`1000 - 998 = 2`
+![998 ports](img/thm.PNG)
+
+What communication protocol is given for these ports following the port number?
+
+`tcp`
+
+Perform a service version detection scan, what is the version of the software running on port 22?
+Run the command: 
+`nmap -sV <target-ip>`
+
+![version](img/thm1.PNG)
+
+Answer: `6.6.1p1`
+
+Perform an aggressive scan, what flag isn't set under the results for port 80?
+
+Run the command 
+`nmap -A <target-ip>`
+![notset](img/thm2.PNG)
+
+Answer: `httponly`
+
+Perform a script scan of vulnerabilities associated with this box, what denial of service (DOS) attack is this box susceptible to? 
+
+Run the command:
+
+`nmap -script vuln <target-ip>`
+
+![vuln] (img/thm3.PNG)
