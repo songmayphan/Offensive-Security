@@ -1,6 +1,8 @@
 # Try Hack Me Room: NMAP
 https://tryhackme.com/room/rpnmap
 
+# See also:
+[NMAP Cheat Sheet](https://s3-us-west-2.amazonaws.com/stationx-public-download/nmap_cheet_sheet_0.6.pdf)
 
 # Task 3
 
