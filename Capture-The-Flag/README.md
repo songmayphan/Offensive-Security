@@ -1,0 +1,3 @@
+# GuidePoint Security CTF 2020
+
+![GuidePoint CTF 2020](https://www.youtube.com/redirect?event=video_description&v=yJF0YPd8lDw&q=https%3A%2F%2Fgo.guidepointsecurity.com%2F2020_11_17_Corp_CaptureTheFlag_Digital_01-Registration-LP.html&redir_token=QUFFLUhqbVVlSTdCOGFwVDF1Z0FTVEU4MGswdWZ5OHNJZ3xBQ3Jtc0ttcjdhR0dld3lkUFJuNHhQQ3lwMEFEYkkycVdfbnlfT0N0ZndzWGFBVGttaExKazJjZm56Z3ktanFGSWdwaExZQ0dya0U4MmFHQ1R6M0pUWlY2alEyVDBTbEg5VG1BOS1uZXdRaGdmZURDNHF3RjB5dw%3D%3D)
