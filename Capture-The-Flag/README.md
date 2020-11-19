@@ -6,7 +6,7 @@
 
 Launch: Tuesday, November 17th - 8:00 AM EST
 Ends: Monday, November 23rd - 5PM EST
-Rank: 10th on Leader board (updated 11/19/2020)
+Rank: 11/90 on Leader board (updated 11/19/2020)
 
 
 # Belle 1
