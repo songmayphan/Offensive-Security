@@ -5,5 +5,5 @@
 # Network Topology
 [What is Network Topology](https://www.dnsstuff.com/what-is-network-topology)
 
-![topology](Networking/img/network-topology-types-1024x536.png)
+![topology](/img/network-topology-types-1024x536.png)
 
