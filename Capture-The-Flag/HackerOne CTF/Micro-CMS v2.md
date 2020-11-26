@@ -26,5 +26,8 @@ ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual
   
   - logged in!
   
- > private page > found flag 0
+ - private page > found flag 0
  
+ # Flag 1
+ 
+ -  BurpSuite intercept with a POST request will return the next flag
