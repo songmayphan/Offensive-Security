@@ -99,3 +99,9 @@ String cleanResults = sanitizer.sanitize("<p>Hello, <b>World!</b>");
 
 The SanitizeHelper module provides a set of methods for scrubbing text of undesired HTML elements.
 `<%= sanitize @comment.body, tags: %w(strong em a), attributes: %w(href) %>`
+
+### Rule 7: Avoid JavaScript URLs
+Be sure to validate all untrusted URLs to ensure they only contain safe schemes such as HTTPS.
+
+### Rule 8: Prevent DOM-based XSS
+[DOM based XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html)
