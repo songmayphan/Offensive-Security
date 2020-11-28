@@ -29,12 +29,14 @@ Directly in CSS:
 
 ### Rule 2: HTML Encode Before Inserting Untrusted Data into HTML Element Content
 
-`<body>
+`
+<body>
 ...ENCODE UNTRUSTED DATA BEFORE PUTTING HERE...
 </body>
 <div>
 ...ENCODE UNTRUSTED DATA BEFORE PUTTING HERE...
 </div>
+
 `
 
 ### Rule 3: Attribute Encode Before Inserting Untrusted Data into HTML Common Attributes
